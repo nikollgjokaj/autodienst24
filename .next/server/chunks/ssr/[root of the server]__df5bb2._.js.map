@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":["file:///Users/BO_Lilienfeld/Desktop/autodienst24/app/providers/TranslationProvider.tsx"],"sourcesContent":["'use client';\nimport { I18nextProvider } from 'react-i18next';\nimport i18n from 'i18next';\nimport { initReactI18next } from 'react-i18next';\nimport commonDE from '@/public/locales/de/common.json';\nimport commonEN from '@/public/locales/en/common.json';\n\ni18n\n  .use(initReactI18next)\n  .init({\n    resources: {\n      de: { common: commonDE },\n      en: { common: commonEN }\n    },\n    lng: 'de',\n    fallbackLng: 'en',\n    interpolation: {\n      escapeValue: false\n    }\n  });\n\nexport function TranslationProvider({ children }: { children: React.ReactNode }) {\n  return (\n    <I18nextProvider i18n={i18n}>\n      {children}\n    </I18nextProvider>\n  );\n} "],"names":[],"mappings":";;;;AACA;AACA;AAEA;AACA;AAFA;AAFA;AADA;;;;;;;AAOA,iJAAA,CAAA,UAAI,CACD,GAAG,CAAC,kKAAA,CAAA,mBAAgB,EACpB,IAAI,CAAC;IACJ,WAAW;QACT,IAAI;YAAE,QAAQ,yGAAA,CAAA,UAAQ;QAAC;QACvB,IAAI;YAAE,QAAQ,yGAAA,CAAA,UAAQ;QAAC;IACzB;IACA,KAAK;IACL,aAAa;IACb,eAAe;QACb,aAAa;IACf;AACF;AAEK,SAAS,oBAAoB,EAAE,QAAQ,EAAiC;IAC7E,qBACE,8OAAC,iKAAA,CAAA,kBAAe;QAAC,MAAM,iJAAA,CAAA,UAAI;kBACxB;;;;;;AAGP"}},
-    {"offset": {"line": 67, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

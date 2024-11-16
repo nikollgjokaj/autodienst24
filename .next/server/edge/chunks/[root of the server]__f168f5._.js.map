@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.ts"],"sourcesContent":["import { NextResponse } from 'next/server'\nimport type { NextRequest } from 'next/server'\nimport { i18n } from './i18n.config'\n\nexport function middleware(request: NextRequest) {\n  const pathname = request.nextUrl.pathname\n  const pathnameIsMissingLocale = i18n.locales.every(\n    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`\n  )\n\n  if (pathnameIsMissingLocale) {\n    const locale = i18n.defaultLocale\n    return NextResponse.redirect(\n      new URL(`/${locale}${pathname}`, request.url)\n    )\n  }\n}\n\nexport const config = {\n  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)']\n} "],"names":[],"mappings":";;;;AAAA;;;;;;AAAA;;;AAIO,SAAS,WAAW,OAAoB;IAC7C,MAAM,WAAW,QAAQ,OAAO,CAAC,QAAQ;IACzC,MAAM,0BAA0B,KAAK,OAAO,CAAC,KAAK,CAChD,CAAC,SAAW,CAAC,SAAS,UAAU,CAAC,CAAC,CAAC,EAAE,OAAO,CAAC,CAAC,KAAK,aAAa,CAAC,CAAC,EAAE,QAAQ;IAG9E,IAAI,yBAAyB;QAC3B,MAAM,SAAS,KAAK,aAAa;QACjC,OAAO,qLAAA,CAAA,eAAY,CAAC,QAAQ,CAC1B,IAAI,IAAI,CAAC,CAAC,EAAE,SAAS,UAAU,EAAE,QAAQ,GAAG;IAEhD;AACF;AAEO,MAAM,SAAS;IACpB,SAAS;QAAC;KAAoD;AAChE"}},
-    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

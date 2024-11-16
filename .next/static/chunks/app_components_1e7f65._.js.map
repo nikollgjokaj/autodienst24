@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/BO_Lilienfeld/Desktop/autodienst24/app/components/Car3D.tsx"],"sourcesContent":["\"use client\";\nimport ThreeWrapper from './ThreeWrapper';\n\nexport default function Car3D() {\n  return (\n    <div className=\"h-[500px] w-full absolute right-0 top-1/2 -translate-y-1/2\">\n      <ThreeWrapper />\n    </div>\n  );\n} "],"names":[],"mappings":";;;;;;;;;AAAA;;;AAGe,SAAS;IACtB,qBACE,6LAAC;QAAI,WAAU;kBACb,cAAA,6LAAC;;;;;;;;;;AAGP;KANwB"}},
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

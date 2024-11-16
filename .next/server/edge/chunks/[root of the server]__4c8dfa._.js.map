@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/next-i18next.config.js"],"sourcesContent":["module.exports = {\n  i18n: {\n    defaultLocale: 'de',\n    locales: ['de', 'en'],\n  },\n} "],"names":[],"mappings":"AAAA,OAAO,OAAO,GAAG;IACf,MAAM;QACJ,eAAe;QACf,SAAS;YAAC;YAAM;SAAK;IACvB;AACF"}},
-    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.ts"],"sourcesContent":["import { NextResponse } from 'next/server'\nimport type { NextRequest } from 'next/server'\nimport { i18n } from './next-i18next.config'\n\nexport function middleware(request: NextRequest) {\n  const locale = request.nextUrl.locale || i18n.defaultLocale\n  request.nextUrl.searchParams.set('locale', locale)\n  return NextResponse.rewrite(request.nextUrl)\n} "],"names":[],"mappings":";;;AAAA;AAEA;AAFA;;;AAIO,SAAS,WAAW,OAAoB;IAC7C,MAAM,SAAS,QAAQ,OAAO,CAAC,MAAM,IAAI,yHAAA,CAAA,OAAI,CAAC,aAAa;IAC3D,QAAQ,OAAO,CAAC,YAAY,CAAC,GAAG,CAAC,UAAU;IAC3C,OAAO,qLAAA,CAAA,eAAY,CAAC,OAAO,CAAC,QAAQ,OAAO;AAC7C"}},
-    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
