@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/BO_Lilienfeld/Desktop/autodienst24/app/components/BasicScene.tsx"],"sourcesContent":["\"use client\";\nimport { Canvas } from '@react-three/fiber';\nimport { OrbitControls } from '@react-three/drei';\n\nfunction Box() {\n  return (\n    <mesh>\n      <boxGeometry args={[1, 1, 1]} />\n      <meshStandardMaterial color=\"orange\" />\n    </mesh>\n  );\n}\n\nexport default function BasicScene() {\n  return (\n    <div style={{ width: '100%', height: '100%' }}>\n      <Canvas>\n        <ambientLight intensity={0.5} />\n        <pointLight position={[10, 10, 10]} />\n        <Box />\n        <OrbitControls />\n      </Canvas>\n    </div>\n  );\n} "],"names":[],"mappings":";;;;AACA;AACA;AAFA;;;;AAIA,SAAS;IACP,qBACE,6LAAC;;0BACC,6LAAC;gBAAY,MAAM;oBAAC;oBAAG;oBAAG;iBAAE;;;;;;0BAC5B,6LAAC;gBAAqB,OAAM;;;;;;;;;;;;AAGlC;KAPS;AASM,SAAS;IACtB,qBACE,6LAAC;QAAI,OAAO;YAAE,OAAO;YAAQ,QAAQ;QAAO;kBAC1C,cAAA,6LAAC,sMAAA,CAAA,SAAM;;8BACL,6LAAC;oBAAa,WAAW;;;;;;8BACzB,6LAAC;oBAAW,UAAU;wBAAC;wBAAI;wBAAI;qBAAG;;;;;;8BAClC,6LAAC;;;;;8BACD,6LAAC,oKAAA,CAAA,gBAAa;;;;;;;;;;;;;;;;AAItB;MAXwB"}},
+    {"offset": {"line": 101, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

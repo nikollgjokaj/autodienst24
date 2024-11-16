@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "background": {
+      "alt": "Autodienst24 Hintergrund",
+      "altMobile": "Autodienst24 Hintergrund Mobile"
+    },
+    "title": "Ihr verlässlicher Partner",
+    "subtitle": "für alle Autobelange",
+    "description": {
+      "prefix": "24/7 Abschleppdienst und professioneller",
+      "highlight": "Autoservice",
+      "suffix": "in Wilhelmsburg"
+    },
+    "buttons": {
+      "services": "Unsere Leistungen",
+      "call": "Jetzt anrufen"
+    }
+  },
+  "services": {
+    "heading": "UNSERE LEISTUNGEN",
+    "subheading": "Professioneller Service für Ihr Fahrzeug",
+    "learnMore": "Mehr erfahren",
+    "carBuying": {
+      "title": "Fahrzeugankauf",
+      "description": "Faire Preise für Ihren Gebrauchtwagen"
+    },
+    "carSelling": {
+      "title": "Fahrzeugverkauf",
+      "description": "Große Auswahl an geprüften Fahrzeugen"
+    },
+    "towingService": {
+      "title": "Abschleppdienst 24H",
+      "description": "Schnelle Hilfe, rund um die Uhr"
+    },
+    "brokerage": {
+      "title": "Vermittlung",
+      "description": "Professionelle Beratung und Service"
+    },
+    "parts": {
+      "title": "Ersatzteile & Reifen",
+      "description": "Qualitätsteile zu fairen Preisen"
+    }
+  },
+  "nav": {
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "call": "Anrufen",
+    "whatsapp": "WhatsApp"
+  }
+} 

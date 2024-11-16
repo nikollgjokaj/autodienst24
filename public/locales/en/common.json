@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "background": {
+      "alt": "Autodienst24 Background",
+      "altMobile": "Autodienst24 Background Mobile"
+    },
+    "title": "Your reliable partner",
+    "subtitle": "for all automotive needs",
+    "description": {
+      "prefix": "24/7 Towing Service and professional",
+      "highlight": "Auto Service",
+      "suffix": "in Wilhelmsburg"
+    },
+    "buttons": {
+      "services": "Our Services",
+      "call": "Call Now"
+    }
+  },
+  "services": {
+    "heading": "OUR SERVICES",
+    "subheading": "Professional service for your vehicle",
+    "learnMore": "Learn more",
+    "carBuying": {
+      "title": "Car Buying",
+      "description": "Fair prices for your used car"
+    },
+    "carSelling": {
+      "title": "Car Selling",
+      "description": "Wide selection of certified vehicles"
+    },
+    "towingService": {
+      "title": "Towing Service 24H",
+      "description": "Quick help, around the clock"
+    },
+    "brokerage": {
+      "title": "Brokerage",
+      "description": "Professional advice and service"
+    },
+    "parts": {
+      "title": "Parts & Tires",
+      "description": "Quality parts at fair prices"
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  }
+}
