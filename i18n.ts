@@ -8,15 +8,15 @@ i18n
       de: {
         common: require('./public/locales/de/common.json')
       },
-      en: {
-        common: require('./public/locales/en/common.json')
-      }
+      //en: {
+      //  common: require('./public/locales/en/common.json')
+      //}
     },
-    lng: 'de', // Standardsprache
-    fallbackLng: 'de',
-    interpolation: {
-      escapeValue: false
-    }
+    //lng: 'de', // Standardsprache
+   // fallbackLng: 'de',
+   // interpolation: {
+   //   escapeValue: false
+   // }
   });
 
 export default i18n; 

@@ -47,5 +47,65 @@
     "contact": "Kontakt",
     "call": "Anrufen",
     "whatsapp": "WhatsApp"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "phone": "0664 5171020",
+    "whatsapp": {
+      "label": "WhatsApp Chat",
+      "message": "Hallo, ich habe eine Frage..."
+    },
+    "address": "Am Berg 3, 3150 Wilhelmsburg",
+    "email": "office@autodienst24.at"
+  },
+"cookie": {
+    "banner": {
+      "message": "Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern. Bitte wählen Sie aus, welche Cookies Sie akzeptieren möchten."
+    },
+    "preferences": "Einstellungen",
+    "essential": "Nur Notwendige",
+    "acceptAll": "Alle akzeptieren",
+    "required": "Erforderlich",
+    "categories": {
+      "necessary": {
+        "title": "Notwendige Cookies",
+        "description": "Diese Cookies sind für die Grundfunktionen der Website erforderlich."
+      },
+      "analytics": {
+        "title": "Analyse Cookies",
+        "description": "Diese Cookies helfen uns zu verstehen, wie Besucher mit der Website interagieren."
+      },
+      "marketing": {
+        "title": "Marketing Cookies",
+        "description": "Diese Cookies werden verwendet, um Werbung relevanter für Sie zu machen."
+      },
+      "preferences": {
+        "title": "Präferenz Cookies",
+        "description": "Diese Cookies ermöglichen es der Website, sich an Ihre Einstellungen zu erinnern."
+      }
+    }
+  },
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen"
+  },
+  "footer": {
+    "company": {
+      "title": "AUTODIENST24",
+      "description": "Ihr zuverlässiger Partner für professionelle Autodienstleistungen"
+    },
+    "social": {
+      "title": "Social Media"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "imprint": "Impressum",
+      "privacy": "Datenschutzerklärung"
+    },
+    "copyright": "©2024 AUTODIENST24 - Alle Rechte vorbehalten",
+    "developed": {
+      "prefix": "Entwickelt mit",
+      "suffix": "von"
+    }
   }
-} 
+}

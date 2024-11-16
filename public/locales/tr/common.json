@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "background": {
+      "alt": "Autodienst24 Arkaplan",
+      "altMobile": "Autodienst24 Mobil Arkaplan"
+    },
+    "title": "Güvenilir ortağınız",
+    "subtitle": "tüm araç konularında",
+    "description": {
+      "prefix": "7/24 Çekici hizmeti ve",
+      "highlight": "Profesyonel servis",
+      "suffix": "Wilhelmsburg'da"
+    },
+    "buttons": {
+      "services": "Hizmetlerimiz",
+      "call": "Şimdi ara"
+    }
+  },
+  "services": {
+    "heading": "HİZMETLERİMİZ",
+    "subheading": "Aracınız için profesyonel servis",
+    "learnMore": "Daha fazla bilgi",
+    "carBuying": {
+      "title": "Araç alımı",
+      "description": "İkinci el aracınız için adil fiyatlar"
+    },
+    "carSelling": {
+      "title": "Araç satışı",
+      "description": "Kontrol edilmiş araçlarda geniş seçenek"
+    },
+    "towingService": {
+      "title": "24 Saat Çekici",
+      "description": "Hızlı yardım, 24 saat"
+    },
+    "brokerage": {
+      "title": "Aracılık",
+      "description": "Profesyonel danışmanlık ve servis"
+    },
+    "parts": {
+      "title": "Yedek parça & Lastik",
+      "description": "Uygun fiyata kaliteli parçalar"
+    }
+  },
+  "nav": {
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "call": "Ara",
+    "whatsapp": "WhatsApp"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "phone": "0664 5171020",
+    "whatsapp": {
+      "label": "WhatsApp Chat",
+      "message": "Merhaba, bir sorum var..."
+    },
+    "address": "Am Berg 3, 3150 Wilhelmsburg",
+    "email": "office@autodienst24.at"
+  },
+  "footer": {
+    "company": {
+      "title": "AUTODIENST24",
+      "description": "Profesyonel araç hizmetleri için güvenilir ortağınız"
+    },
+    "social": {
+      "title": "Sosyal Medya"
+    },
+    "legal": {
+      "title": "Yasal",
+      "imprint": "Künye",
+      "privacy": "Gizlilik Politikası"
+    },
+    "copyright": "©2024 AUTODIENST24 - Tüm hakları saklıdır",
+    "developed": {
+      "prefix": "Geliştiren",
+      "suffix": "tarafından"
+    }
+  }
+} 

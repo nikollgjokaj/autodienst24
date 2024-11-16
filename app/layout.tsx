@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { TranslationProvider } from './providers/TranslationProvider';
+import { ThemeProvider } from './providers/ThemeProvider';
+//import CookieBanner from './components/CookieConsent/CookieBanner';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -42,9 +44,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <TranslationProvider>
-          {children}
-        </TranslationProvider>
+        <ThemeProvider>
+          <TranslationProvider>
+            {children}
+          </TranslationProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
