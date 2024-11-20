@@ -61,7 +61,13 @@
     "info": "Kontaktinformationen",
     "hours": {
       "title": "Öffnungszeiten",
-      "available": "24/7 Dienst verfügbar"
+      "monday": "Mo: 08:00-17:00",
+      "tuesday": "Di: 08:00-17:00",
+      "wednesday": "Mi: 08:00-17:00",
+      "thursday": "Do: 08:00-17:00",
+      "friday": "Fr: 08:00-17:00",
+      "saturday": "Sa: 09:00-15:00",
+      "sunday": "So: geschlossen"
     },
     "labels": {
       "phone": "Telefon",
@@ -130,6 +136,17 @@
     "authority": "[Zuständige Aufsichtsbehörde]",
     "professionalTitle": "Berufsbezeichnung und berufsrechtliche Regelungen",
     "title": "[Ihre Berufsbezeichnung]",
-    "awardedIn": "Verliehen in: Österreich"
+    "awardedIn": "Verliehen in: Österreich",
+    "licenses": "Berechtigungen",
+    "transportLicense": {
+      "title": "FG Güterbeförderungsgewerbe",
+      "description": "Güterbeförderung mit Kraftfahrzeugen oder Kraftfahrzeugen mit Anhängern, deren höchst zulässiges Gesamtgewicht im grenzüberschreitenden Güterverkehr insgesamt 2.500 kg bzw. im innerstaatlichen Güterverkehr 3.500 kg nicht übersteigt",
+      "gisa": "GISA-Zahl: 35133995"
+    },
+    "tradeLicense": {
+      "title": "LG Fahrzeughandel",
+      "description": "Handelsgewerbe mit Ausnahme der reglementierten Handelsgewerbe",
+      "gisa": "GISA-Zahl: 35134077"
+    }
   }
 }

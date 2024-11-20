@@ -20,41 +20,33 @@ export default function ImprintPage() {
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
               {t('imprint.companyDetails')}
             </h2>
-            <p>{t('footer.company.title')}</p>
-            <p>{t('contact.address')}</p>
-            <p>{t('imprint.country')}</p>
+            <p>Enis Arifi</p>
+            <p>GLN: 9110032490043</p>
+            <p>GISA: 35133995, 35134077</p>
+            <p>Am Berg 3, 3150 Wilhelmsburg</p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-              {t('contact.info')}
+              {t('imprint.licenses')}
             </h2>
-            <p>{t('contact.labels.phone')}: {t('contact.phone')}</p>
-            <p>{t('contact.labels.email')}: {t('contact.email')}</p>
-          </section>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-medium mb-2">{t('imprint.transportLicense.title')}</h3>
+                <p className="text-sm">
+                  {t('imprint.transportLicense.description')}
+                </p>
+                <p className="text-sm mt-1">{t('imprint.transportLicense.gisa')}</p>
+              </div>
 
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-              {t('imprint.companyInfo')}
-            </h2>
-            <p>{t('imprint.companyNumber')}</p>
-            <p>{t('imprint.companyCourt')}</p>
-            <p>{t('imprint.vatId')}</p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-              {t('imprint.supervisoryAuthority')}
-            </h2>
-            <p>{t('imprint.authority')}</p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-              {t('imprint.professionalTitle')}
-            </h2>
-            <p>{t('imprint.title')}</p>
-            <p>{t('imprint.awardedIn')}</p>
+              <div>
+                <h3 className="font-medium mb-2">{t('imprint.tradeLicense.title')}</h3>
+                <p className="text-sm">
+                  {t('imprint.tradeLicense.description')}
+                </p>
+                <p className="text-sm mt-1">{t('imprint.tradeLicense.gisa')}</p>
+              </div>
+            </div>
           </section>
         </div>
       </div>

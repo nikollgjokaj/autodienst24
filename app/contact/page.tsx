@@ -71,6 +71,7 @@ const ContactPage = () => {
                   icon={<MapPinIcon className="w-6 h-6 text-red-600" />}
                   title={t('contact.labels.address')}
                   content={t('contact.address')}
+                  href={t('contact.address')}
                 />
               </motion.div>
             </div>
@@ -120,7 +121,7 @@ const ContactPage = () => {
   );
 };
 
-const ContactItem = ({ icon, title, content, href }) => (
+const ContactItem = ({ icon, title, content, href }: { icon: JSX.Element, title: string, content: string, href?: string }) => (
   <motion.div
     variants={{
       hidden: { opacity: 0, x: -20 },
@@ -143,7 +144,7 @@ const ContactItem = ({ icon, title, content, href }) => (
   </motion.div>
 );
 
-const TimeRow = ({ day, hours }) => (
+const TimeRow = ({ day, hours }: { day: string, hours: string }) => (
   <motion.div
     whileHover={{ x: 10 }}
     className="flex justify-between"

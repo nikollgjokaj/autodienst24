@@ -99,6 +99,17 @@
     "authority": "[Autoriteti Mbikëqyrës Përgjegjës]",
     "professionalTitle": "Titulli Profesional dhe Rregulloret",
     "title": "[Titulli juaj Profesional]",
-    "awardedIn": "Lëshuar në: Austri"
+    "awardedIn": "Lëshuar në: Austri",
+    "licenses": "Licencat",
+    "transportLicense": {
+      "title": "Biznesi i Transportit të Mallrave",
+      "description": "Transport mallrash me automjete motorike ose automjete motorike me rimorkio, pesha maksimale e lejuar totale e të cilave nuk i kalon 2,500 kg në transportin ndërkufitar të mallrave ose 3,500 kg në transportin e brendshëm të mallrave",
+      "gisa": "Numri GISA: 35133995"
+    },
+    "tradeLicense": {
+      "title": "Tregtia e Automjeteve",
+      "description": "Biznes tregtar me përjashtim të bizneseve tregtare të rregulluara",
+      "gisa": "Numri GISA: 35134077"
+    }
   }
 } 

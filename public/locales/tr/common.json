@@ -99,6 +99,17 @@
     "authority": "[Yetkili Denetim Kurumu]",
     "professionalTitle": "Mesleki Unvan ve Mesleki Düzenlemeler",
     "title": "[Mesleki Unvanınız]",
-    "awardedIn": "Verildiği yer: Avusturya"
+    "awardedIn": "Verildiği yer: Avusturya",
+    "licenses": "Lisanslar",
+    "transportLicense": {
+      "title": "Yük Taşımacılığı İşletmesi",
+      "description": "Sınır ötesi yük taşımacılığında toplam 2.500 kg'ı veya yurtiçi yük taşımacılığında 3.500 kg'ı aşmayan azami izin verilen toplam ağırlığa sahip motorlu taşıtlar veya römorklu motorlu taşıtlarla yük taşımacılığı",
+      "gisa": "GISA Numarası: 35133995"
+    },
+    "tradeLicense": {
+      "title": "Araç Ticareti",
+      "description": "Düzenlenmiş ticari işletmeler hariç ticari işletme",
+      "gisa": "GISA Numarası: 35134077"
+    }
   }
 } 

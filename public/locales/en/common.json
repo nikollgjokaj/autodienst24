@@ -99,6 +99,17 @@
     "authority": "[Responsible Supervisory Authority]",
     "professionalTitle": "Professional Title and Regulations",
     "title": "[Your Professional Title]",
-    "awardedIn": "Awarded in: Austria"
+    "awardedIn": "Awarded in: Austria",
+    "licenses": "Licenses",
+    "transportLicense": {
+      "title": "Freight Transport Business",
+      "description": "Transport of goods with motor vehicles or motor vehicles with trailers, whose maximum permissible total weight does not exceed 2,500 kg in cross-border freight transport or 3,500 kg in domestic freight transport",
+      "gisa": "GISA Number: 35133995"
+    },
+    "tradeLicense": {
+      "title": "Vehicle Trade",
+      "description": "Trading business with the exception of regulated trading businesses",
+      "gisa": "GISA Number: 35134077"
+    }
   }
 }

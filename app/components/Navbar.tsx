@@ -192,27 +192,52 @@ const Navbar = () => {
               <div className="relative">
                 <button 
                   onClick={() => setIsLangOpen(!isLangOpen)}
-                  className="px-3 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition"
+                  className={`
+                    px-3 py-2 rounded-md 
+                    bg-gray-200 dark:bg-gray-700 
+                    hover:bg-gray-300 dark:hover:bg-gray-600 
+                    transition-all duration-200
+                    ${isLangOpen ? 'ring-2 ring-red-500 ring-opacity-50' : ''}
+                  `}
                 >
-                  <ReactCountryFlag
-                    countryCode={languages.find(lang => lang.code === i18n.language)?.countryCode || 'DE'}
-                    svg
-                    style={{
-                      width: '1.5em',
-                      height: '1.5em',
-                    }}
-                    className="rounded-sm"
-                  />
-                  <span className="text-xs">▼</span>
+                  <div className="flex items-center gap-2">
+                    <ReactCountryFlag
+                      countryCode={languages.find(lang => lang.code === i18n.language)?.countryCode || 'DE'}
+                      svg
+                      style={{
+                        width: '1.5em',
+                        height: '1.5em',
+                      }}
+                      className="rounded-sm"
+                    />
+                    <ChevronDown 
+                      className={`w-4 h-4 transition-transform duration-200 ${
+                        isLangOpen ? 'rotate-180' : ''
+                      }`}
+                    />
+                  </div>
                 </button>
 
                 {isLangOpen && (
-                  <div className="absolute top-full right-0 mt-2 bg-white shadow-lg rounded-md overflow-hidden min-w-[120px]">
+                  <div className="
+                    absolute top-full right-0 mt-2 
+                    bg-white dark:bg-gray-800 
+                    shadow-lg rounded-md overflow-hidden 
+                    min-w-[120px]
+                    border border-gray-100 dark:border-gray-700
+                    animate-in fade-in slide-in-from-top-2 duration-200
+                  ">
                     {languages.map((lang) => (
                       <button
                         key={lang.code}
                         onClick={() => changeLanguage(lang.code)}
-                        className="block w-full px-3 py-2 text-left hover:bg-gray-100 flex items-center gap-3"
+                        className="
+                          block w-full px-3 py-2 
+                          text-left hover:bg-gray-100 dark:hover:bg-gray-700
+                          flex items-center gap-3
+                          transition-colors
+                          text-gray-700 dark:text-gray-200
+                        "
                       >
                         <ReactCountryFlag
                           countryCode={lang.countryCode}
