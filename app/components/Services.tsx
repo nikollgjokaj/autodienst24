@@ -11,31 +11,36 @@ const Services = () => {
       title: t('services.carBuying.title'),
       icon: CarIcon,
       description: t('services.carBuying.description'),
-      color: "bg-blue-50 dark:bg-gray-800/40"
+      color: "bg-blue-50 dark:bg-gray-800/40",
+      link: "/fahrzeugankauf"
     },
     {
       title: t('services.carSelling.title'),
       icon: CarIcon,
       description: t('services.carSelling.description'),
-      color: "bg-red-50 dark:bg-gray-800/40"
+      color: "bg-red-50 dark:bg-gray-800/40",
+      link: "/fahrzeugverkauf"
     },
     {
       title: t('services.towingService.title'),
       icon: ClockIcon,
       description: t('services.towingService.description'),
-      color: "bg-green-50 dark:bg-gray-800/40"
+      color: "bg-green-50 dark:bg-gray-800/40",
+      link: "/abschleppdienst"
     },
     {
       title: t('services.brokerage.title'),
       icon: ShieldIcon,
       description: t('services.brokerage.description'),
-      color: "bg-purple-50 dark:bg-gray-800/40"
+      color: "bg-purple-50 dark:bg-gray-800/40",
+      link: "/vermittlung"
     },
     {
       title: t('services.parts.title'),
       icon: WrenchIcon,
       description: t('services.parts.description'),
-      color: "bg-orange-50 dark:bg-gray-800/40"
+      color: "bg-orange-50 dark:bg-gray-800/40",
+      link: "/ersatzteile"
     }
   ];
 
@@ -89,7 +94,7 @@ const Services = () => {
 
               <div className="mt-6">
                 <a 
-                  href="#contact" 
+                  href={service.link}
                   className="inline-flex items-center text-sm font-medium text-red-600 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300 transition-colors duration-200"
                 >
                   {t('services.learnMore')}

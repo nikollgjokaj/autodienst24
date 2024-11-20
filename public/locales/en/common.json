@@ -22,19 +22,51 @@
     "learnMore": "Learn more",
     "carBuying": {
       "title": "Car Buying",
-      "description": "Fair prices for your used car"
+      "description": "Fair prices for your used car",
+      "benefits": {
+        "fairPrice": "Fair price evaluation",
+        "instantPayment": "Instant cash payment",
+        "freeEvaluation": "Free vehicle evaluation",
+        "deregistration": "Deregistration included",
+        "pickup": "Pickup available",
+        "fastProcess": "Quick processing"
+      }
     },
     "carSelling": {
       "title": "Car Selling",
       "description": "Wide selection of certified vehicles"
     },
     "towingService": {
-      "title": "Towing Service 24H",
-      "description": "Quick help, around the clock"
+      "title": "24/7 Towing Service",
+      "description": "Professional towing service and breakdown assistance around the clock",
+      "features": {
+        "24hours": "24/7 Availability",
+        "fastResponse": "Quick Response Time",
+        "professional": "Professional Team",
+        "fairPrices": "Fair Prices",
+        "insurance": "Insurance Processing",
+        "nationwide": "Available Nationwide"
+      },
+      "cta": {
+        "title": "Need Help?",
+        "description": "Call us now - we're here to help immediately!"
+      }
     },
     "brokerage": {
       "title": "Brokerage",
-      "description": "Professional advice and service"
+      "description": "Professional advice and service for your vehicle purchase or sale",
+      "features": {
+        "trusted": "Trusted Partner",
+        "network": "Large Network",
+        "evaluation": "Fair Evaluation",
+        "paperwork": "Complete Processing",
+        "negotiation": "Professional Negotiation",
+        "support": "Personal Support"
+      },
+      "cta": {
+        "title": "Get Advice",
+        "description": "Contact us for a no-obligation consultation"
+      }
     },
     "parts": {
       "title": "Parts & Tires",
@@ -110,6 +142,59 @@
       "title": "Vehicle Trade",
       "description": "Trading business with the exception of regulated trading businesses",
       "gisa": "GISA Number: 35134077"
+    }
+  },
+  "about": {
+    "title": "About AUTODIENST24",
+    "subtitle": "Your reliable partner for all automotive needs in Wilhelmsburg and surrounding areas",
+    "stats": {
+      "customers": "Satisfied Customers",
+      "hours": "Hours Service",
+      "experience": "Years Experience"
+    },
+    "history": {
+      "title": "Our History",
+      "description": "Since our foundation, we have focused on quality, reliability, and first-class customer service. With years of experience in the automotive industry, we offer comprehensive services for our customers."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We strive to provide our customers with the best possible service and are proud to be a trusted partner in all automotive matters."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality",
+        "description": "We focus on high-quality work and first-class service."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Available 24/7 for our customers when they need us."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Fair prices and clear communication with our customers."
+      }
+    }
+  },
+  "carSales": {
+    "sold": "SOLD",
+    "features": {
+      "automatic": "Automatic",
+      "led": "LED",
+      "nav": "Navigation",
+      "pdc": "PDC",
+      "dsg": "DSG",
+      "climate": "Climate Control",
+      "carplay": "Apple CarPlay",
+      "acc": "ACC",
+      "amg": "AMG-Line",
+      "mbux": "MBUX",
+      "parkAssist": "Park Assist"
+    },
+    "details": {
+      "year": "Year",
+      "mileage": "Mileage",
+      "price": "Price"
     }
   }
 }

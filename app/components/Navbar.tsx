@@ -64,22 +64,26 @@ const Navbar = () => {
     {
       title: t('services.carBuying.title'),
       icon: Car,
-      description: t('services.carBuying.description')
+      description: t('services.carBuying.description'),
+      link: "/fahrzeugankauf"
     },
     {
       title: t('services.carSelling.title'),
       icon: Car,
-      description: t('services.carSelling.description')
+      description: t('services.carSelling.description'),
+      link: "/fahrzeugverkauf"
     },
     {
       title: t('services.towingService.title'),
       icon: Clock,
-      description: t('services.towingService.description')
+      description: t('services.towingService.description'),
+      link: "/abschleppdienst"
     },
     {
       title: t('services.brokerage.title'),
       icon: Shield,
-      description: t('services.brokerage.description')
+      description: t('services.brokerage.description'),
+      link: "/vermittlung"
     }
   ];
 
@@ -132,7 +136,8 @@ const Navbar = () => {
               onMouseLeave={() => handleDesktopHover(false)}
             >
               <button className="flex items-center space-x-1 text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-500 transition">
-                <span>{t('nav.services')}</span>
+                <span>{t('nav.services')}
+                </span>
                 <ChevronDown className="w-4 h-4" />
               </button>
 
@@ -142,7 +147,7 @@ const Navbar = () => {
                   {services.map((service, index) => (
                     <Link 
                       key={index}
-                      href="#" 
+                      href={service.link} 
                       className="flex items-start p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700/50 transition"
                     >
                       <service.icon className="w-6 h-6 text-red-600 dark:text-red-500 mt-1" />
@@ -275,7 +280,7 @@ const Navbar = () => {
                     {services.map((service, index) => (
                       <Link 
                         key={index}
-                        href="#" 
+                        href={service.link} 
                         className="flex items-start p-4 border-b border-gray-200 dark:border-gray-700 last:border-0"
                       >
                         <service.icon className="w-6 h-6 text-red-600 dark:text-red-500 mt-1" />

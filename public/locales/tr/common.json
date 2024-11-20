@@ -22,19 +22,51 @@
     "learnMore": "Daha fazla bilgi",
     "carBuying": {
       "title": "Araç alımı",
-      "description": "İkinci el aracınız için adil fiyatlar"
+      "description": "İkinci el aracınız için adil fiyatlar",
+      "benefits": {
+        "fairPrice": "Adil fiyat değerlendirmesi",
+        "instantPayment": "Anında nakit ödeme",
+        "freeEvaluation": "Ücretsiz araç değerlendirmesi",
+        "deregistration": "Trafik kaydı silme dahil",
+        "pickup": "Yerinden alma mevcut",
+        "fastProcess": "Hızlı işlem"
+      }
     },
     "carSelling": {
       "title": "Araç satışı",
       "description": "Kontrol edilmiş araçlarda geniş seçenek"
     },
     "towingService": {
-      "title": "24 Saat Çekici",
-      "description": "Hızlı yardım, 24 saat"
+      "title": "7/24 Çekici Hizmeti",
+      "description": "Profesyonel çekici hizmeti ve yol yardımı günün her saati",
+      "features": {
+        "24hours": "7/24 Hizmet",
+        "fastResponse": "Hızlı Müdahale",
+        "professional": "Profesyonel Ekip",
+        "fairPrices": "Uygun Fiyatlar",
+        "insurance": "Sigorta İşlemleri",
+        "nationwide": "Tüm Avusturya'da Hizmet"
+      },
+      "cta": {
+        "title": "Yardıma mı İhtiyacınız Var?",
+        "description": "Hemen arayın - anında yardıma geliyoruz!"
+      }
     },
     "brokerage": {
       "title": "Aracılık",
-      "description": "Profesyonel danışmanlık ve servis"
+      "description": "Araç alım veya satımınız için profesyonel danışmanlık ve hizmet",
+      "features": {
+        "trusted": "Güvenilir Ortak",
+        "network": "Geniş Ağ",
+        "evaluation": "Adil Değerlendirme",
+        "paperwork": "Eksiksiz İşlem",
+        "negotiation": "Profesyonel Pazarlık",
+        "support": "Kişisel Destek"
+      },
+      "cta": {
+        "title": "Danışmanlık Alın",
+        "description": "Ücretsiz danışmanlık için bize ulaşın"
+      }
     },
     "parts": {
       "title": "Yedek parça & Lastik",
@@ -103,13 +135,66 @@
     "licenses": "Lisanslar",
     "transportLicense": {
       "title": "Yük Taşımacılığı İşletmesi",
-      "description": "Sınır ötesi yük taşımacılığında toplam 2.500 kg'ı veya yurtiçi yük taşımacılığında 3.500 kg'ı aşmayan azami izin verilen toplam ağırlığa sahip motorlu taşıtlar veya römorklu motorlu taşıtlarla yük taşımacılığı",
+      "description": "Snır ötesi yük taşımacılığında toplam 2.500 kg'ı veya yurtiçi yük taşımacılığında 3.500 kg'ı aşmayan azami izin verilen toplam ağırlığa sahip motorlu taşıtlar veya römorklu motorlu taşıtlarla yük taşımacılığı",
       "gisa": "GISA Numarası: 35133995"
     },
     "tradeLicense": {
       "title": "Araç Ticareti",
       "description": "Düzenlenmiş ticari işletmeler hariç ticari işletme",
       "gisa": "GISA Numarası: 35134077"
+    }
+  },
+  "about": {
+    "title": "AUTODIENST24 Hakkında",
+    "subtitle": "Wilhelmsburg ve çevresinde tüm otomotiv ihtiyaçlarınız için güvenilir ortağınız",
+    "stats": {
+      "customers": "Memnun Müşteri",
+      "hours": "Saat Hizmet",
+      "experience": "Yıl Deneyim"
+    },
+    "history": {
+      "title": "Tarihçemiz",
+      "description": "Kuruluşumuzdan bu yana kalite, güvenilirlik ve birinci sınıf müşteri hizmetine odaklandık. Otomotiv sektöründeki yıllara dayanan deneyimimizle müşterilerimize kapsamlı hizmetler sunuyoruz."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Müşterilerimize mümkün olan en iyi hizmeti sunmaya çalışıyoruz ve tüm otomotiv konularında güvenilir bir ortak olmaktan gurur duyuyoruz."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "quality": {
+        "title": "Kalite",
+        "description": "Yüksek kaliteli iş ve birinci sınıf hizmete odaklanıyoruz."
+      },
+      "reliability": {
+        "title": "Güvenilirlik",
+        "description": "Müşterilerimiz için 7/24 hizmetinizdeyiz."
+      },
+      "transparency": {
+        "title": "Şeffaflık",
+        "description": "Adil fiyatlar ve müşterilerimizle açık iletişim."
+      }
+    }
+  },
+  "carSales": {
+    "sold": "SATILDI",
+    "features": {
+      "automatic": "Otomatik",
+      "led": "LED",
+      "nav": "Navigasyon",
+      "pdc": "PDC",
+      "dsg": "DSG",
+      "climate": "Klima",
+      "carplay": "Apple CarPlay",
+      "acc": "ACC",
+      "amg": "AMG-Line",
+      "mbux": "MBUX",
+      "parkAssist": "Park Asistanı"
+    },
+    "details": {
+      "year": "Model Yılı",
+      "mileage": "Kilometre",
+      "price": "Fiyat"
     }
   }
 } 

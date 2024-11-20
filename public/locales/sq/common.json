@@ -22,7 +22,15 @@
     "learnMore": "Mëso më shumë",
     "carBuying": {
       "title": "Blerja e automjeteve",
-      "description": "Çmime të drejta për makinën tuaj të përdorur"
+      "description": "Çmime të drejta për makinën tuaj të përdorur",
+      "benefits": {
+        "fairPrice": "Vlerësim i drejtë i çmimit",
+        "instantPayment": "Pagesë e menjëhershme në para",
+        "freeEvaluation": "Vlerësim falas i automjetit",
+        "deregistration": "Çregjistrimi i përfshirë",
+        "pickup": "Marrja në vend e disponueshme",
+        "fastProcess": "Proces i shpejtë"
+      }
     },
     "carSelling": {
       "title": "Shitja e automjeteve",
@@ -110,6 +118,38 @@
       "title": "Tregtia e Automjeteve",
       "description": "Biznes tregtar me përjashtim të bizneseve tregtare të rregulluara",
       "gisa": "Numri GISA: 35134077"
+    }
+  },
+  "about": {
+    "title": "Rreth AUTODIENST24",
+    "subtitle": "Partneri juaj i besueshëm për të gjitha nevojat e automjeteve në Wilhelmsburg dhe rrethinë",
+    "stats": {
+      "customers": "Klientë të Kënaqur",
+      "hours": "Orë Shërbim",
+      "experience": "Vite Përvojë"
+    },
+    "history": {
+      "title": "Historia Jonë",
+      "description": "Që nga themelimi ynë, jemi fokusuar në cilësi, besueshmëri dhe shërbim të klasit të parë ndaj klientit. Me vite përvojë në industrinë e automjeteve, ne ofrojmë shërbime gjithëpërfshirëse për klientët tanë."
+    },
+    "mission": {
+      "title": "Misioni Ynë",
+      "description": "Ne përpiqemi t'u ofrojmë klientëve tanë shërbimin më të mirë të mundshëm dhe jemi krenarë që jemi një partner i besueshëm në të gjitha çështjet e automjeteve."
+    },
+    "values": {
+      "title": "Vlerat Tona",
+      "quality": {
+        "title": "Cilësia",
+        "description": "Ne fokusohemi në punë cilësore dhe shërbim të klasit të parë."
+      },
+      "reliability": {
+        "title": "Besueshmëria",
+        "description": "Në dispozicion 24/7 për klientët tanë kur kanë nevojë për ne."
+      },
+      "transparency": {
+        "title": "Transparenca",
+        "description": "Çmime të drejta dhe komunikim i qartë me klientët tanë."
+      }
     }
   }
 } 

@@ -22,19 +22,51 @@
     "learnMore": "Mehr erfahren",
     "carBuying": {
       "title": "Fahrzeugankauf",
-      "description": "Faire Preise für Ihren Gebrauchtwagen"
+      "description": "Faire Preise für Ihren Gebrauchtwagen",
+      "benefits": {
+        "fairPrice": "Faire Preisbewertung",
+        "instantPayment": "Sofortige Barauszahlung",
+        "freeEvaluation": "Kostenlose Fahrzeugbewertung",
+        "deregistration": "Abmeldung inklusive",
+        "pickup": "Abholung möglich",
+        "fastProcess": "Schnelle Abwicklung"
+      }
     },
     "carSelling": {
       "title": "Fahrzeugverkauf",
       "description": "Große Auswahl an geprüften Fahrzeugen"
     },
     "towingService": {
-      "title": "Abschleppdienst 24H",
-      "description": "Schnelle Hilfe, rund um die Uhr"
+      "title": "Abschleppdienst 24/7",
+      "description": "Professioneller Abschleppdienst und Pannenhilfe rund um die Uhr",
+      "features": {
+        "24hours": "24/7 Verfügbarkeit",
+        "fastResponse": "Schnelle Reaktionszeit",
+        "professional": "Professionelles Team",
+        "fairPrices": "Faire Preise",
+        "insurance": "Versicherungsabwicklung",
+        "nationwide": "Österreichweit verfügbar"
+      },
+      "cta": {
+        "title": "Brauchen Sie Hilfe?",
+        "description": "Rufen Sie uns jetzt an - wir sind sofort für Sie da!"
+      }
     },
     "brokerage": {
       "title": "Vermittlung",
-      "description": "Professionelle Beratung und Service"
+      "description": "Professionelle Beratung und Service für Ihren Fahrzeugkauf oder -verkauf",
+      "features": {
+        "trusted": "Vertrauenswürdiger Partner",
+        "network": "Großes Netzwerk",
+        "evaluation": "Faire Bewertung",
+        "paperwork": "Komplette Abwicklung",
+        "negotiation": "Professionelle Verhandlung",
+        "support": "Persönliche Betreuung"
+      },
+      "cta": {
+        "title": "Lassen Sie sich beraten",
+        "description": "Kontaktieren Sie uns für eine unverbindliche Beratung"
+      }
     },
     "parts": {
       "title": "Ersatzteile & Reifen",
@@ -147,6 +179,59 @@
       "title": "LG Fahrzeughandel",
       "description": "Handelsgewerbe mit Ausnahme der reglementierten Handelsgewerbe",
       "gisa": "GISA-Zahl: 35134077"
+    }
+  },
+  "about": {
+    "title": "Über AUTODIENST24",
+    "subtitle": "Ihr zuverlässiger Partner für alle Autobelange in Wilhelmsburg und Umgebung",
+    "stats": {
+      "customers": "Zufriedene Kunden",
+      "hours": "Stunden Service",
+      "experience": "Jahre Erfahrung"
+    },
+    "history": {
+      "title": "Unsere Geschichte",
+      "description": "Seit unserer Gründung setzen wir auf Qualität, Zuverlässigkeit und erstklassigen Kundenservice. Mit jahrelanger Erfahrung in der Automobilbranche bieten wir umfassende Dienstleistungen für unsere Kunden."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Wir streben danach, unseren Kunden den bestmöglichen Service zu bieten und sind stolz darauf, ein vertrauenswürdiger Partner in allen Autoangelegenheiten zu sein."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "quality": {
+        "title": "Qualität",
+        "description": "Wir setzen auf hochwertige Arbeit und erstklassigen Service."
+      },
+      "reliability": {
+        "title": "Zuverlässigkeit",
+        "description": "24/7 für unsere Kunden da, wenn sie uns brauchen."
+      },
+      "transparency": {
+        "title": "Transparenz",
+        "description": "Faire Preise und klare Kommunikation mit unseren Kunden."
+      }
+    }
+  },
+  "carSales": {
+    "sold": "VERKAUFT",
+    "features": {
+      "automatic": "Automatik",
+      "led": "LED",
+      "nav": "Navi",
+      "pdc": "PDC",
+      "dsg": "DSG",
+      "climate": "Klimaautomatik",
+      "carplay": "Apple CarPlay",
+      "acc": "ACC",
+      "amg": "AMG-Line",
+      "mbux": "MBUX",
+      "parkAssist": "Parkassistent"
+    },
+    "details": {
+      "year": "Baujahr",
+      "mileage": "Kilometerstand",
+      "price": "Preis"
     }
   }
 }
