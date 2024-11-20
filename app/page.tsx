@@ -7,11 +7,12 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function Home() {
-
   return (
     <main className="relative">
       <Navbar />
-      <Hero />
+      <div className="mt-16 md:mt-0"> {/* Add spacing for mobile, remove on medium screens */}
+        <Hero />
+      </div>
       <Services />
       <Contact />
       <Footer />
