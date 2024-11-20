@@ -56,7 +56,18 @@
       "message": "Hallo, ich habe eine Frage..."
     },
     "address": "Am Berg 3, 3150 Wilhelmsburg",
-    "email": "office@autodienst24.at"
+    "email": "office@autodienst24.at",
+    "availability": "Wir sind rund um die Uhr für Sie erreichbar.",
+    "info": "Kontaktinformationen",
+    "hours": {
+      "title": "Öffnungszeiten",
+      "available": "24/7 Dienst verfügbar"
+    },
+    "labels": {
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Adresse"
+    }
   },
 "cookie": {
     "banner": {
@@ -107,5 +118,18 @@
       "prefix": "Entwickelt mit",
       "suffix": "von"
     }
+  },
+  "imprint": {
+    "companyDetails": "Angaben gemäß § 5 TMG",
+    "country": "Österreich",
+    "companyInfo": "Unternehmensangaben",
+    "companyNumber": "Firmenbuchnummer: [Ihre Nummer]",
+    "companyCourt": "Firmenbuchgericht: [Ihr Gericht]",
+    "vatId": "UID-Nummer: [Ihre UID]",
+    "supervisoryAuthority": "Aufsichtsbehörde",
+    "authority": "[Zuständige Aufsichtsbehörde]",
+    "professionalTitle": "Berufsbezeichnung und berufsrechtliche Regelungen",
+    "title": "[Ihre Berufsbezeichnung]",
+    "awardedIn": "Verliehen in: Österreich"
   }
 }

@@ -56,7 +56,18 @@
       "message": "Përshëndetje, kam një pyetje..."
     },
     "address": "Am Berg 3, 3150 Wilhelmsburg",
-    "email": "office@autodienst24.at"
+    "email": "office@autodienst24.at",
+    "availability": "Ne jemi në dispozicion 24/7 për ju.",
+    "info": "Informacione Kontakti",
+    "hours": {
+      "title": "Orari i Punës",
+      "available": "Shërbim 24/7 në dispozicion"
+    },
+    "labels": {
+      "phone": "Telefoni",
+      "email": "E-mail",
+      "address": "Adresa"
+    }
   },
   "footer": {
     "company": {
@@ -76,5 +87,18 @@
       "prefix": "Zhvilluar me",
       "suffix": "nga"
     }
+  },
+  "imprint": {
+    "companyDetails": "Të dhënat e kompanisë sipas § 5 TMG",
+    "country": "Austri",
+    "companyInfo": "Informacione të Kompanisë",
+    "companyNumber": "Numri i Regjistrimit të Biznesit: [Numri juaj]",
+    "companyCourt": "Gjykata e Regjistrit Tregtar: [Gjykata juaj]",
+    "vatId": "NIPT: [NIPT-i juaj]",
+    "supervisoryAuthority": "Autoriteti Mbikëqyrës",
+    "authority": "[Autoriteti Mbikëqyrës Përgjegjës]",
+    "professionalTitle": "Titulli Profesional dhe Rregulloret",
+    "title": "[Titulli juaj Profesional]",
+    "awardedIn": "Lëshuar në: Austri"
   }
 } 

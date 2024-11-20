@@ -54,12 +54,6 @@ const Footer = () => {
               >
                 {t('footer.legal.imprint')}
               </Link>
-              <Link 
-                href="/datenschutz" 
-                className="block hover:text-white transition-colors"
-              >
-                {t('footer.legal.privacy')}
-              </Link>
             </div>
           </div>
         </div>

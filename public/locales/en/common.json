@@ -56,7 +56,18 @@
       "message": "Hello, I have a question..."
     },
     "address": "Am Berg 3, 3150 Wilhelmsburg",
-    "email": "office@autodienst24.at"
+    "email": "office@autodienst24.at",
+    "availability": "We are available around the clock for you.",
+    "info": "Contact Information",
+    "hours": {
+      "title": "Opening Hours",
+      "available": "24/7 Service available"
+    },
+    "labels": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    }
   },
   "footer": {
     "company": {
@@ -76,5 +87,18 @@
       "prefix": "Developed with",
       "suffix": "by"
     }
+  },
+  "imprint": {
+    "companyDetails": "Company Details according to § 5 TMG",
+    "country": "Austria",
+    "companyInfo": "Company Information",
+    "companyNumber": "Company Registration Number: [Your Number]",
+    "companyCourt": "Commercial Register Court: [Your Court]",
+    "vatId": "VAT ID: [Your VAT ID]",
+    "supervisoryAuthority": "Supervisory Authority",
+    "authority": "[Responsible Supervisory Authority]",
+    "professionalTitle": "Professional Title and Regulations",
+    "title": "[Your Professional Title]",
+    "awardedIn": "Awarded in: Austria"
   }
 }

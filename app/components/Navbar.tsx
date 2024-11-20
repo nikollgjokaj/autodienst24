@@ -97,17 +97,31 @@ const Navbar = () => {
             AUTO<span className="text-red-600 dark:text-red-500">DIENST24</span>
           </Link>
 
-          {/* Mobile Menu Button */}
-          <button 
-            className="md:hidden p-2"
-            onClick={toggleMobileMenu}
-          >
-            {activeMenu === 'mobile' ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6" />
-            )}
-          </button>
+          {/* Mobile Controls */}
+          <div className="flex items-center gap-2 md:hidden">
+            <button
+              onClick={toggleTheme}
+              className="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+              aria-label="Toggle theme"
+            >
+              {theme === 'dark' ? (
+                <SunIcon className="h-6 w-6" />
+              ) : (
+                <MoonIcon className="h-6 w-6" />
+              )}
+            </button>
+            
+            <button 
+              className="p-2"
+              onClick={toggleMobileMenu}
+            >
+              {activeMenu === 'mobile' ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </button>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -145,11 +159,20 @@ const Navbar = () => {
             <Link href="/about" className="text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-500 transition">
               {t('nav.about')}
             </Link>
-            <Link href="/contact" className="text-gray-700 dark:text-gray-300 hover:text-red-600 dark:hover:text-red-500 transition">
-              {t('nav.contact')}
-            </Link>
 
             <div className="flex items-center space-x-4">
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                aria-label="Toggle theme"
+              >
+                {theme === 'dark' ? (
+                  <SunIcon className="h-6 w-6" />
+                ) : (
+                  <MoonIcon className="h-6 w-6" />
+                )}
+              </button>
+
               <a href="tel:+436645171020" 
                 className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition"
               >
@@ -206,18 +229,6 @@ const Navbar = () => {
                   </div>
                 )}
               </div>
-
-              <button
-                onClick={toggleTheme}
-                className="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-                aria-label="Toggle theme"
-              >
-                {theme === 'dark' ? (
-                  <SunIcon className="w-5 h-5" />
-                ) : (
-                  <MoonIcon className="w-5 h-5" />
-                )}
-              </button>
             </div>
           </div>
 
@@ -309,24 +320,6 @@ const Navbar = () => {
                     </button>
                   ))}
                 </div>
-              </div>
-
-              {/* Theme Toggle Button - NEU */}
-              <div className="p-4 border-t border-gray-200 dark:border-gray-700">
-                <button
-                  onClick={toggleTheme}
-                  className="flex items-center space-x-3 w-full p-2 hover:bg-gray-50 dark:hover:bg-gray-700/50 rounded-md text-gray-700 dark:text-gray-300"
-                >
-                  {theme === 'dark' ? (
-                    <>
-                      <SunIcon className="w-5 h-5" />
-                    </>
-                  ) : (
-                    <>
-                      <MoonIcon className="w-5 h-5" />
-                    </>
-                  )}
-                </button>
               </div>
             </div>
           )}
