@@ -92,6 +92,7 @@
     "availability": "Wir sind rund um die Uhr für Sie erreichbar.",
     "info": "Kontaktinformationen",
     "hours": {
+      "available": "24/7 Service verfügbar",
       "title": "Öffnungszeiten",
       "monday": "Mo: 08:00-17:00",
       "tuesday": "Di: 08:00-17:00",
