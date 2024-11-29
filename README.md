@@ -1,6 +1,6 @@
 # AUTODIENST24 - Professional Automotive Services
 
-![AUTODIENST24](public/autodienst24.svg)
+![AUTODIENST24](public/image.png)
 
 A modern, multilingual website for automotive services built with Next.js, featuring a responsive design, dark mode support, and seamless user experience.
 
