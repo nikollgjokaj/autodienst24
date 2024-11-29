@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AUTODIENST24 - Professional Automotive Services
 
-## Getting Started
+![AUTODIENST24](public/images/og-image.jpg)
 
-First, run the development server:
+A modern, multilingual website for automotive services built with Next.js, featuring a responsive design, dark mode support, and seamless user experience.
 
+## 🌟 Features
+
+- **Multilingual Support**
+  - German (Default)
+  - English
+  - Albanian
+  - Turkish
+
+- **Modern Design**
+  - Responsive layout
+  - Dark/Light mode
+  - Smooth animations with Framer Motion
+  - TailwindCSS styling
+
+- **Core Services**
+  - 24/7 Towing Service
+  - Vehicle Purchase
+  - Vehicle Sales
+  - Vehicle Brokerage
+  - Parts & Tires
+
+- **Technical Features**
+  - Server-Side Rendering (SSR)
+  - SEO Optimized
+  - Mobile-First Approach
+  - Progressive Web App (PWA) Ready
+  - Accessibility Compliant
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/autodienst24.git
+```
+
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Run the development server**
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open [http://localhost:3000](http://localhost:3000) with your browser**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js 15.0](https://nextjs.org/) - React Framework
+- [React 18.3](https://reactjs.org/) - JavaScript Library
+- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation Library
+- [i18next](https://www.i18next.com/) - Internationalization Framework
+- [Lucide Icons](https://lucide.dev/) - Icon Library
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+autodienst24/
+├── app/
+│   ├── components/
+│   ├── providers/
+│   ├── public/
+│   │   └── locales/
+│   └── pages/
+├── public/
+│   ├── images/
+│   └── fonts/
+└── styles/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Internationalization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The website supports multiple languages through i18next. Language files are located in:
 
-## Deploy on Vercel
+```
+public/locales/
+├── de/
+├── en/
+├── sq/
+└── tr/
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Theme Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The website supports both light and dark modes, with seamless switching capabilities. Theme configurations can be modified in the ThemeProvider component.
+
+## 📱 Progressive Web App
+
+The website is PWA-ready, allowing users to install it as a native app on their devices. PWA configurations can be customized in the `next.config.js` file.
+
+## 🔧 Configuration
+
+Key configuration files:
+
+- `next.config.js` - Next.js configuration
+- `tailwind.config.js` - TailwindCSS configuration
+- `i18n.ts` - Internationalization configuration
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## 👥 Contact
+
+- Website: [www.autodienst24.at](https://www.autodienst24.at)
+- Email: office@autodienst24.at
+- Phone: +43 664 5171020
+
+## 🙏 Acknowledgments
+
+- Design inspiration from modern automotive websites
+- Icons provided by Lucide Icons
+- Animations powered by Framer Motion
+
+---
+
+Made with ❤️ by [Nikoll Gjokaj](https://www.linkedin.com/in/nikoll-gjokaj-929249240)
