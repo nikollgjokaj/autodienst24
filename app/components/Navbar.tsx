@@ -132,7 +132,7 @@ const Navbar = () => {
               aria-label="Toggle theme"
             >
               {theme === 'dark' ? (
-                <SunIcon className="h-6 w-6" />
+                <SunIcon className="h-6 w-6 dark:text-white" />
               ) : (
                 <MoonIcon className="h-6 w-6" />
               )}
@@ -143,9 +143,9 @@ const Navbar = () => {
               onClick={toggleMobileMenu}
             >
               {activeMenu === 'mobile' ? (
-                <X className="h-6 w-6" />
+                <X className="h-6 w-6 dark:text-white" />
               ) : (
-                <Menu className="h-6 w-6" />
+                <Menu className="h-6 w-6 dark:text-white" />
               )}
             </button>
           </div>
