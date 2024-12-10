@@ -1,0 +1,224 @@
+{
+  "hero": {
+    "background": {
+      "alt": "Autodienst24 pozadina",
+      "altMobile": "Autodienst24 mobilna pozadina"
+    },
+    "title": "Vaš pouzdan partner",
+    "subtitle": "za sve automobilske potrebe",
+    "description": {
+      "prefix": "24/7 šlep služba i profesionalni",
+      "highlight": "auto servis",
+      "suffix": "u Wilhelmsburgu"
+    },
+    "buttons": {
+      "services": "Naše usluge",
+      "call": "Pozovite odmah"
+    }
+  },
+  "services": {
+    "heading": "NAŠE USLUGE",
+    "subheading": "Profesionalni servis za vaše vozilo",
+    "learnMore": "Saznajte više",
+    "carBuying": {
+      "title": "Otkup vozila",
+      "description": "Poštene cijene za vaš polovni automobil",
+      "benefits": {
+        "fairPrice": "Poštena procjena cijene",
+        "instantPayment": "Trenutna isplata u gotovini",
+        "freeEvaluation": "Besplatna procjena vozila",
+        "deregistration": "Odjava uključena",
+        "pickup": "Mogućnost preuzimanja",
+        "fastProcess": "Brza realizacija"
+      }
+    },
+    "carSelling": {
+      "title": "Prodaja vozila",
+      "description": "Veliki izbor provjerenih vozila"
+    },
+    "towingService": {
+      "title": "Šlep služba 24/7",
+      "description": "Profesionalna šlep služba i pomoć na putu tokom cijelog dana",
+      "features": {
+        "24hours": "24/7 dostupnost",
+        "fastResponse": "Brzo vrijeme odziva",
+        "professional": "Profesionalni tim",
+        "fairPrices": "Poštene cijene",
+        "insurance": "Obrada osiguranja",
+        "nationwide": "Dostupno širom Austrije"
+      },
+      "cta": {
+        "title": "Treba vam pomoć?",
+        "description": "Pozovite nas odmah - tu smo za vas!"
+      }
+    },
+    "brokerage": {
+      "title": "Posredovanje",
+      "description": "Profesionalno savjetovanje i usluge za kupovinu ili prodaju vašeg vozila",
+      "features": {
+        "trusted": "Pouzdan partner",
+        "network": "Velika mreža",
+        "evaluation": "Poštena procjena",
+        "paperwork": "Kompletna obrada",
+        "negotiation": "Profesionalno pregovaranje",
+        "support": "Lična podrška"
+      },
+      "cta": {
+        "title": "Zatražite savjet",
+        "description": "Kontaktirajte nas za besplatno savjetovanje"
+      }
+    }
+  },
+  "nav": {
+    "services": "Usluge",
+    "about": "O nama",
+    "contact": "Kontakt",
+    "call": "Pozovite",
+    "whatsapp": "WhatsApp"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "phone": "0664 5171020",
+    "whatsapp": {
+      "label": "WhatsApp chat",
+      "message": "Zdravo, imam pitanje..."
+    },
+    "address": "Am Berg 3, 3150 Wilhelmsburg",
+    "email": "office@autodienst24.at",
+    "availability": "Dostupni smo 24/7.",
+    "info": "Kontakt informacije",
+    "hours": {
+      "available": "24/7 servis dostupan",
+      "title": "Radno vrijeme",
+      "monday": "Pon: 08:00-17:00",
+      "tuesday": "Uto: 08:00-17:00",
+      "wednesday": "Sri: 08:00-17:00",
+      "thursday": "Čet: 08:00-17:00",
+      "friday": "Pet: 08:00-17:00",
+      "saturday": "Sub: 09:00-15:00",
+      "sunday": "Ned: zatvoreno"
+    }
+  },
+  "cookie": {
+    "banner": {
+      "message": "Ova web stranica koristi kolačiće za poboljšanje vašeg iskustva. Molimo odaberite koje kolačiće želite prihvatiti."
+    },
+    "preferences": "Postavke",
+    "essential": "Samo neophodni",
+    "acceptAll": "Prihvati sve",
+    "required": "Obavezno",
+    "categories": {
+      "necessary": {
+        "title": "Neophodni kolačići",
+        "description": "Ovi kolačići su neophodni za osnovne funkcije web stranice."
+      },
+      "analytics": {
+        "title": "Analitički kolačići",
+        "description": "Ovi kolačići nam pomažu razumjeti kako posjetioci koriste web stranicu."
+      },
+      "marketing": {
+        "title": "Marketinški kolačići",
+        "description": "Ovi kolačići se koriste za prikazivanje relevantnijih oglasa."
+      },
+      "preferences": {
+        "title": "Kolačići preferencija",
+        "description": "Ovi kolačići omogućuju web stranici da zapamti vaše postavke."
+      }
+    }
+  },
+  "common": {
+    "save": "Sačuvaj",
+    "cancel": "Otkaži"
+  },
+  "footer": {
+    "company": {
+      "title": "AUTODIENST24",
+      "description": "Vaš pouzdan partner za profesionalne auto usluge"
+    },
+    "social": {
+      "title": "Društvene mreže"
+    },
+    "legal": {
+      "title": "Pravno",
+      "imprint": "Impresum",
+      "privacy": "Zaštita podataka"
+    },
+    "copyright": "©2024 AUTODIENST24 - Sva prava zadržana",
+    "developed": {
+      "prefix": "Razvijeno s",
+      "suffix": "od"
+    }
+  },
+  "imprint": {
+    "companyDetails": "Podaci prema § 5 TMG",
+    "country": "Austrija",
+    "companyInfo": "Podaci o firmi",
+    "companyNumber": "Broj firme: [Vaš broj]",
+    "companyCourt": "Privredni sud: [Vaš sud]",
+    "vatId": "PDV broj: [Vaš PDV]",
+    "supervisoryAuthority": "Nadzorno tijelo",
+    "authority": "[Nadležno nadzorno tijelo]",
+    "professionalTitle": "Profesionalni naziv i profesionalni propisi",
+    "title": "[Vaš profesionalni naziv]",
+    "awardedIn": "Dodijeljeno u: Austriji",
+    "licenses": "Dozvole",
+    "transportLicense": {
+      "title": "FG Prevoz robe",
+      "description": "Prevoz robe motornim vozilima ili motornim vozilima s prikolicama čija najveća dozvoljena ukupna masa u prekograničnom prevozu robe ne prelazi 2.500 kg odnosno u domaćem prevozu robe 3.500 kg",
+      "gisa": "GISA broj: 35133995"
+    },
+    "tradeLicense": {
+      "title": "LG Trgovina vozilima",
+      "description": "Trgovačka djelatnost s izuzetkom regulisanih trgovačkih djelatnosti",
+      "gisa": "GISA broj: 35134077"
+    }
+  },
+  "about": {
+    "title": "O AUTODIENST24",
+    "subtitle": "Vaš pouzdan partner za sve automobilske potrebe u Wilhelmsburgu i okolini",
+    "stats": {
+      "customers": "Zadovoljnih klijenata",
+      "hours": "Sati usluge",
+      "experience": "Godine iskustva"
+    },
+    "history": {
+      "title": "Naša historija",
+      "description": "Od našeg osnivanja, fokusiramo se na kvalitet, pouzdanost i prvoklasnu uslugu. S dugogodišnjim iskustvom u automobilskoj industriji pružamo sveobuhvatne usluge našim klijentima."
+    },
+    "mission": {
+      "title": "Naša misija",
+      "description": "Težimo pružiti najbolju moguću uslugu našim klijentima i ponosni smo što smo pouzdan partner u svim automobilskim pitanjima."
+    },
+    "values": {
+      "title": "Naše vrijednosti",
+      "quality": {
+        "title": "Kvalitet",
+        "description": "Fokusiramo se na visokokvalitetan rad i prvoklasnu uslugu."
+      },
+      "reliability": {
+        "title": "Pouzdanost",
+        "description": "24/7 dostupni za naše klijente kada nas trebaju."
+      },
+      "transparency": {
+        "title": "Transparentnost",
+        "description": "Poštene cijene i jasna komunikacija s našim klijentima."
+      }
+    },
+    "ceo": {
+      "title": "Direktor",
+      "description": "S dugogodišnjim iskustvom u automobilskoj industriji i okom za detalje, vodim Autodienst24 s ciljem pružanja najbolje moguće usluge našim klijentima."
+    }
+  },
+  "carSales": {
+    "sold": "PRODATO",
+    "features": {
+      "automatic": "Automatik",
+      "led": "LED",
+      "nav": "Navigacija",
+      "pdc": "PDC",
+      "dsg": "DSG",
+      "climate": "Klima uređaj",
+      "carplay": "Apple"
+    }
+  }
+} 

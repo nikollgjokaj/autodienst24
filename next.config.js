@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Keine i18n Konfiguration nötig
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+  },
+  i18n: {
+    locales: ['de', 'en', 'tr', 'sq'],
+    defaultLocale: 'de',
+  },
+  compress: true,
+  poweredByHeader: false,
 };
 
 module.exports = nextConfig; 

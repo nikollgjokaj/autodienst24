@@ -22,22 +22,44 @@ const languages = [
   { 
     code: 'de', 
     label: 'Deutsch',
-    countryCode: 'DE'
+    countryCode: 'AT',
+    flag: '🇦🇹'
   },
   { 
     code: 'en', 
     label: 'English',
-    countryCode: 'GB'
+    countryCode: 'GB',
+    flag: '🇬🇧'
   },
   { 
     code: 'sq', 
     label: 'Shqip',
-    countryCode: 'AL'
+    countryCode: 'AL',
+    flag: '🇦🇱'
   },
   { 
     code: 'tr', 
     label: 'Türkçe',
-    countryCode: 'TR'
+    countryCode: 'TR',
+    flag: '🇹🇷'
+  },
+  { 
+    code: 'sr', 
+    label: 'Српски',
+    countryCode: 'RS',
+    flag: '🇷🇸'
+  },
+  { 
+    code: 'hr', 
+    label: 'Hrvatski',
+    countryCode: 'HR',
+    flag: '🇭🇷'
+  },
+  { 
+    code: 'bs', 
+    label: 'Bosanski',
+    countryCode: 'BA',
+    flag: '🇧🇦'
   }
 ];
 
@@ -90,6 +112,7 @@ const Navbar = () => {
   // Sprache ändern
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
+    localStorage.setItem('preferredLanguage', lang);
     setIsLangOpen(false);
   };
 

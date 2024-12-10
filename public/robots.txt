@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://autodienst24.at/sitemap.xml 
